@@ -1,0 +1,19 @@
+{
+    "name": "volkanaydin/advcash",
+    "description": "Advcash Libary For Laravel",
+    "type": "laravel-package",
+    "require": {
+        "php": ">=7.2"
+    },
+    "authors": [
+        {
+            "name": "Volkan Aydin",
+            "email": "volkan@seberg.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "VolkanAydin\\Advcash\\": "src/"
+        }
+    }
+}
