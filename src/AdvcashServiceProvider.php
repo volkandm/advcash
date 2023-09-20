@@ -1,6 +1,6 @@
 <?php
 
-namespace VolkanAydin\Advcash;
+namespace Volkandm\Advcash;
 
 use Illuminate\Support\ServiceProvider;
 
