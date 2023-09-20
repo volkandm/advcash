@@ -1,19 +1,26 @@
 {
-    "name": "volkandm/advcash",
-    "description": "Advcash Libary For Laravel",
-    "type": "laravel-package",
-    "require": {
-        "php": ">=7.2"
-    },
-    "authors": [
-        {
-            "name": "Volkan Aydin",
-            "email": "volkan@seberg.net"
-        }
-    ],
-    "autoload": {
-        "psr-4": {
-            "volkandm\\Advcash\\": "src/"
-        }
+  "name": "volkandm/advcash",
+  "description": "Advcash Libary For Laravel",
+  "type": "laravel-package",
+  "require": {
+    "php": ">=7.2"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Volkandm\\Advcash\\AdvcashServiceProvider"
+      ]
     }
+  },
+  "authors": [
+    {
+      "name": "Volkan Aydin",
+      "email": "volkan@seberg.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "volkandm\\Advcash\\": "src/"
+    }
+  }
 }
