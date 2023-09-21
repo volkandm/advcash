@@ -22,8 +22,5 @@ class AdvcashServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        // Paketinizin kullanılabilirliğini Laravel uygulamanıza
-        // tanıtarak veya konfigürasyon ayarlarını ekleyerek
-        // işlem yapabilirsiniz.
     }
 }
