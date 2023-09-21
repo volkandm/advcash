@@ -29,7 +29,7 @@ class Advcash
     {
         $merchantWebService = new MerchantWebService();
         $arg0 = $this->auth();
-        dd($arg0);
+
         $arg1 = new sendMoneyRequest();
         $arg1->amount = $amount;
         $arg1->currency = $currency;
@@ -47,18 +47,17 @@ class Advcash
         $sendMoney = new sendMoney();
         $sendMoney->arg0 = $arg0;
         $sendMoney->arg1 = $arg1;
-
         try {
             $merchantWebService->validationSendMoney($validationSendMoney);
             $sendMoneyResponse = $merchantWebService->sendMoney($sendMoney);
             return [
                 "success" => 1,
-                "response" => print_r($sendMoneyResponse)
+                "response" => json_encode($sendMoneyResponse)
             ];
         } catch (\Exception $e) {
             return [
                 "success" => 0,
-                "response" => print_r($e->getMessage())
+                "response" => json_encode($e->getMessage())
             ];
         }
     }
