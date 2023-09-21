@@ -5,6 +5,13 @@
   "require": {
     "php": ">=7.2"
   },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Volkandm\\Advcash\\AdvcashServiceProvider"
+      ]
+    }
+  },
   "authors": [
     {
       "name": "Volkan Aydin",
