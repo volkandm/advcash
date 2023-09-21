@@ -13,9 +13,6 @@ class AdvcashServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton('advcash', function ($app) {
-            return new Advcash();
-        });
     }
 
     /**
