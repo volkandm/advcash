@@ -1,1 +1,2 @@
-#ADVCash Api Libary Coded By Volkan AYDIN
+# ADVCash Api for Laravel
+Coded By Volkan AYDIN
