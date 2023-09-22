@@ -2,6 +2,7 @@
   "name": "volkandm/advcash",
   "description": "Advcash Libary For Laravel",
   "type": "laravel-package",
+  "version": "1.0",
   "require": {
     "php": ">=7.2"
   },

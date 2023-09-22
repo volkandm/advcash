@@ -1,4 +1,4 @@
-# VolkanDM Advcash API for Laravel by Volkan AYDIN
+# Advcash API for Laravel by Volkan AYDIN
 
 Hello, this plugin I developed for a project has the entire advcash library. But I will add facade support as I need it. The following functions are working.
 
@@ -18,7 +18,7 @@ Edit your .env file add following variables;
 **Sending Money**
 
     $adv = new Volkandm\Advcash\Advcash();
-    $adv->SendMoney(1, "fairblack@gmail.com", "USD", "1 Beer :)");
+    $adv->SendMoney(1, "email or walletid", "USD", "Payment Note");
 
 You can use email or wallet id to sending money.
 
