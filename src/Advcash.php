@@ -57,7 +57,7 @@ class Advcash
         } catch (\Exception $e) {
             return [
                 "success" => 0,
-                "response" => json_encode($e->getMessage())
+                "response" => $e->getMessage()
             ];
         }
     }
