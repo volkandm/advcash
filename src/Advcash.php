@@ -25,7 +25,7 @@ class Advcash
         return $arg0;
     }
 
-    public function SendMoney($amount, $to, $currency = "USD", $note = "HireTalents Withdraw")
+    public function SendMoney($amount, $to, $currency = "USD", $note = "Transaction Note")
     {
         $merchantWebService = new MerchantWebService();
         $arg0 = $this->auth();
